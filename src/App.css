@@ -1,0 +1,46 @@
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.btn{
+    padding: 7px;
+    font-size: 1.3rem;
+    margin: 3px 5px;
+    border: 1px solid black;
+}
+.btn:hover{
+    color: green;
+}
+.input-btn{
+    padding: 12px 2rem;
+    margin: 4px;
+    border-radius: 6px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.div-main{
+    display: flex;
+    justify-content: center;
+}
+ 
+.list-main{
+ list-style: none;
+  border: 1px solid rgb(24, 24, 24);
+  padding: 9px 2.3rem;
+  margin: 3px 0;
+  width: 13rem;
+  border-radius: 4px;
+}
+.flex-box{
+    display: flex;
+    flex-direction: column;
+}
+.delete-icon{
+    float: right;
+    cursor: pointer;
+}
+.delete-icon:hover{
+    color: red;
+}
